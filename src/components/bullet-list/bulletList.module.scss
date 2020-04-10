@@ -1,0 +1,34 @@
+.bullet-list {
+  padding: 15px 15px 0px 0px;
+
+  p, svg {
+    margin-bottom: 0;
+  }
+
+  .bulletSvg,
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .list-item {
+    display: flex;
+    margin-bottom: 25px;
+  }
+
+  .list-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .bullet-text {
+    margin-left: 15px;
+  }
+
+  @media only screen and (min-width: 800px) {
+    padding: 20px 0 0 20px;
+  }
+
+  .last-bullet {
+    margin-bottom: 0
+  }
+}

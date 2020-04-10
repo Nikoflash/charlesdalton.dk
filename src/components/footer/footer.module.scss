@@ -1,0 +1,22 @@
+.footer {
+  background-color: $green;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+
+  p {
+    margin: 0 0 0 10px;
+    color: white;
+  }
+}
+
+.linkedin {
+  margin: 3px 0 0 30px;
+  align-items: center;
+}

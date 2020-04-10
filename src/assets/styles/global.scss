@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+
+  @media only screen and (min-width: 900px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.375rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.6875rem;
+}
+
+h4 {
+  font-size: 1.375rem;
+}
+
+$text-blue: #2E4057;
+$green: #15865E;
+$green-alt: #168E71;
+$grey: #F1EEEE;

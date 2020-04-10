@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.block-white,
+.block-grey {
+  display: flex;
+  justify-content: center;
+}
+
+.block-white {
+  background-color: white;
+}
+
+.block-grey {
+  background-color: $grey;
+}
+
+.container {
+  width: 100%;
+  padding: 60px 30px;
+  color: $text-blue;
+
+  h2, svg {
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .bottom-text {
+    margin-top: 30px;
+    margin-bottom: 0;
+  
+    @media only screen and (min-width: 800px) {
+      margin-top: 30px;
+    }  
+  }
+
+  a {
+    color: $green;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    width: 730px;
+
+    h2, svg {
+      margin-bottom: 30px;
+    }
+
+    .bottom-text {
+      margin-top: 40px; 
+    }
+  }
+}

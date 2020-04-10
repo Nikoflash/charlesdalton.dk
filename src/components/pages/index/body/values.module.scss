@@ -1,0 +1,31 @@
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+
+  & > div {
+    flex: 1 1 205px;
+  }
+
+  > div:nth-child(-n+2) {
+    margin-bottom: 20px;
+  }
+  
+
+  @media only screen and (min-width: 800px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: unset;
+    margin-bottom: 10px;
+
+    & > div {
+      flex: unset;
+    }
+
+    > div:nth-child(-n+2) {
+      margin-bottom: 0;
+    }
+  }
+}

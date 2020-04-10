@@ -5,5 +5,21 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        data: '@import "src/assets/styles/global.scss";',
+        includePaths: [
+          'src/components',
+        ],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-typography",
+      options: {
+        pathToConfigModule: "src/utils/typography.js"
+      }
+    }
+  ]
 }
