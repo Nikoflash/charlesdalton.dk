@@ -9,7 +9,7 @@ export default () => {
     <div>
       <div className={styles.contact}>
         <ContactForm />
-        <img src={contactImg} alt="Charles Dalton smiling"/>
+        <img src={contactImg} alt="Charles Dalton smile"/>
       </div>
       <Footer />
     </div>
