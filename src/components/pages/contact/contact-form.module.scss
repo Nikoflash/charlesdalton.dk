@@ -16,6 +16,11 @@
     margin-bottom: 20px;
     padding-left: 10px;
   }
+
+  input:disabled,
+  textarea:disabled {
+    background-color: $grey;
+  }
 }
 
 .textarea {

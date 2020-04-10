@@ -7,17 +7,18 @@ export default () => {
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
   const [message, setMessage] = useState('')
+  const [submitText, setSubmitText] = useState('SEND MESSAGE')
+  const [disabled, setDisabled] = useState(false)
 
   function sendEmail(e) {
     e.preventDefault();
 
-   console.log(e.target)
-
-    emailjs.sendForm('default_service', 'charlesdalton_dk_contact', e.target, 'user_guT7ot8VVgYHwGmiskkco')
+    emailjs.sendForm('default_service', 'charlesdalton_dk_contact', e.target, process.env.EMAILJS_USER_ID)
       .then((result) => {
-          console.log('This is the result ' + result.text);
+        setDisabled(true)
+        setSubmitText('THANK YOU')
       }, (error) => {
-          console.log('This is the error '+ error.text);
+        setSubmitText('Error: Please try again')
       })
   }
 
@@ -34,6 +35,7 @@ export default () => {
             value={email}
             placeholder="Email"
             onChange={(e) => {setEmail(e.target.value)}}
+            disabled={disabled}
           />
   
           <input 
@@ -42,6 +44,7 @@ export default () => {
             value={phone}
             placeholder="Phone number"
             onChange={(e) => {setPhone(e.target.value)}}
+            disabled={disabled}
           />
         </div>
         
@@ -54,13 +57,14 @@ export default () => {
             value={message}
             placeholder="Write a message..."
             onChange={(e) => {setMessage(e.target.value)}}
+            disabled={disabled}
           >
           </textarea>
   
         </div>
   
         <div className={styles.submit}>
-          <button type="submit">SEND MESSAGE</button>
+          <button type="submit">{submitText}</button>
         </div>
       </form>
     </div>
