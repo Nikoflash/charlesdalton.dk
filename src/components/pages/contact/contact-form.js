@@ -13,7 +13,7 @@ export default () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('default_service', 'charlesdalton_dk_contact', e.target, process.env.EMAILJS_USER_ID)
+    emailjs.sendForm('default_service', 'charlesdalton_dk_contact', e.target, process.env.GATSBY_EMAILJS_USER_ID)
       .then((result) => {
         setDisabled(true)
         setSubmitText('THANK YOU')
