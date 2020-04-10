@@ -18,7 +18,7 @@ export default () => {
         setDisabled(true)
         setSubmitText('THANK YOU')
       }, (error) => {
-        setSubmitText('Error: Please try again')
+        setSubmitText('Error: Please try again later')
       })
   }
 
