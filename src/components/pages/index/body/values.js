@@ -7,7 +7,7 @@ import layout from './layout.module.scss'
 export default () => {
   return (
     <div>
-      <Heading text={'Core Values'}>
+      <Heading text={'Your Whole Person'}>
         <p>Your whole person is involved, your:</p>
       </Heading>
 

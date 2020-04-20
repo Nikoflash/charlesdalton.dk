@@ -4,6 +4,7 @@ import Philosophy from './philosophy'
 import Values from './values'
 import Purpose from './purpose'
 import Testimonial from './testimonial'
+import PurVal from './purval'
 
 export default () => {
   return (
@@ -13,17 +14,22 @@ export default () => {
           <Philosophy />
         </div>
       </div>
-      <div id="values" className={layout.blockGrey}>
+      <div className={layout.blockGrey}>
         <div className={layout.container}>
           <Values />
         </div>
       </div>
-      <div id="purpose" className={layout.blockWhite}>
+      <div className={layout.blockWhite}>
         <div className={layout.container}>
           <Purpose />
         </div>
       </div>
       <div className={layout.blockGrey}>
+        <div className={layout.container}>
+          <PurVal />
+        </div>
+      </div>
+      <div className={layout.blockWhite}>
         <div className={layout.container}>
           <Testimonial />
         </div>

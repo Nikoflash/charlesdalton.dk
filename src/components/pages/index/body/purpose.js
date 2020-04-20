@@ -5,7 +5,7 @@ import { BulletList, BulletItem } from '../../../bullet-list/bullet-list'
 export default () => {
   return (
     <div>
-      <Heading text={'Core Purpose'}>
+      <Heading text={'Your Personal Skills'}>
         <p>Your personal skills and competencies – now or in the future.</p>
       </Heading>
       <BulletList >

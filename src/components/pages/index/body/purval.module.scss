@@ -1,0 +1,59 @@
+.purval {
+  
+  svg {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .header-green {
+    color: $green;
+  }
+
+  .purpose {
+    margin-top: 40px;
+  }
+
+  .values,
+  .purpose {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .icon-values {
+    width: 155px;
+  }
+
+  .icon-purpose {
+    width: 165px;
+  }
+
+  @media only screen and (max-width: 660px) {
+    .values {
+      justify-content: flex-end;
+    }
+
+    .purpose {
+      margin-top: 60px;
+    }
+
+    .icon-values {
+      position: absolute;
+      opacity: 0.3;
+      left: 20px;
+    }
+  
+    .icon-purpose {
+      position: absolute;
+      opacity: 0.3;
+      right: 20px;
+    }
+  }
+
+
+
+  .text {
+    width: 400px;
+    text-align: center;
+  }
+}

@@ -19,6 +19,12 @@ const typography = new Typography({
         '400',
       ],
     },
+    {
+      name: 'Merriweather',
+      styles: [
+        '700'
+      ],
+    },
   ],
   headerFontFamily: ["Source Sans Pro", "serif"],
   bodyFontFamily: ["Muli", "sans-serif"]
