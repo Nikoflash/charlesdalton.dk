@@ -7,7 +7,7 @@ export default () => {
   return (
     <div className={styles.footer}>
       <div className={styles.email}>
-        <a href="mailto:charlesdalton@gmail.com">
+        <a href="mailto:charlesdalton.dk@gmail.com">
           <Email /> 
         </a>
         <p>charlesdalton.dk@gmail.com</p>
