@@ -6,7 +6,7 @@ import layout from './layout.module.scss'
 export default () => {
   return (
     <div>
-      <Heading text={'Coaching Philosophy and Style'}/>
+      <Heading text={'Coaching Philosophy'}/>
       <div>
         <p>My coaching philosophy is based on honouring each person as having personal, significant worth and as an expert in their own life and work.</p>
         <p>I believe that you are naturally creative, resourceful and whole and it is my job to:</p>
