@@ -10,7 +10,7 @@ export default () => {
         <a href="mailto:charlesdalton@gmail.com">
           <Email /> 
         </a>
-        <p>charlesdalton@gmail.com</p>
+        <p>charlesdalton.dk@gmail.com</p>
       </div>
       <div className={styles.linkedin}>
         <a href="https://www.linkedin.com/in/charles-dalton-645722a/" rel="noopener noreferrer" target="_blank">
