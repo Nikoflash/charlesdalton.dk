@@ -10,7 +10,7 @@ export default () => {
       </Heading>
       <BulletList >
         <BulletItem>
-          <p>Commitment –you are sold out on the idea.</p>
+          <p>Commitment – you are sold out on the idea.</p>
         </BulletItem>
         <BulletItem>
           <p>Optimism – you believe change is possible in all situations.</p>
@@ -25,7 +25,7 @@ export default () => {
           <p>Authenticity – you walk the talk despite temptation to compromise.</p>
         </BulletItem>
         <BulletItem>
-          <p>Clarity – in you thinking and communication, this sets you free!</p>
+          <p>Clarity – in your thinking and communication, this sets you free!</p>
         </BulletItem>
         <BulletItem>
           <p>Collaboration – you are never an island.</p>
