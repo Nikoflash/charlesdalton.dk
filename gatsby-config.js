@@ -20,6 +20,13 @@ module.exports = {
       options: {
         pathToConfigModule: "src/utils/typography.js"
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Charles Dalton Coach`,
+        icon: `src/assets/images/favicon.png`
+      },
+    },
   ]
 }
